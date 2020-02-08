@@ -37,6 +37,7 @@ public class WeightCalculator extends JFrame {
             gTOPanel.add(gramsInputField, 1,0);
             gTOPanel.add(ouncesResultField, 1,1);
             gTOPanel.add(convertButton,1,2);
+            convertButton.addActionListener(this);
             ouncesResultField.setBackground(Color.lightGray);
             ouncesResultField.setEditable(false);
             add(gTOPanel, BorderLayout.CENTER);
@@ -44,7 +45,10 @@ public class WeightCalculator extends JFrame {
 
         public void actionPerformed(ActionEvent e) {
             String gramString = gramsInputField.getText();
-
+            gramsInput = Double.parseDouble(gramString);
+            ouncesResult = gramsInput*GRAMS_IN_OUNCES;
+            String ouncesString = Double.toString(ouncesResult);
+            ouncesResultField.setText(ouncesString);
         }
 
 
