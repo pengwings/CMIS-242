@@ -44,7 +44,7 @@ public class WeightCalculator extends JFrame {
 
         public void actionPerformed(ActionEvent e) {
             String gramString = gramsInputField.getText();
-            
+
         }
 
 
