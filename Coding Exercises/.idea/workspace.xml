@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67ed19e4-d41d-42c5-bea9-0400b842bdda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WeightCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeightCalculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="67ed19e4-d41d-42c5-bea9-0400b842bdda" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,6 +100,7 @@
       <workItem from="1580576812822" duration="4563000" />
       <workItem from="1581195184739" duration="4568000" />
       <workItem from="1581200393161" duration="270000" />
+      <workItem from="1581273920758" duration="68000" />
     </task>
     <servers />
   </component>
