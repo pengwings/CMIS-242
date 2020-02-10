@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67ed19e4-d41d-42c5-bea9-0400b842bdda" name="Default Changelist" comment="" />
+    <list default="true" id="67ed19e4-d41d-42c5-bea9-0400b842bdda" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,6 +103,7 @@
       <workItem from="1581195184739" duration="4568000" />
       <workItem from="1581200393161" duration="270000" />
       <workItem from="1581273920758" duration="68000" />
+      <workItem from="1581279317685" duration="231000" />
     </task>
     <servers />
   </component>
@@ -116,10 +119,11 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="755" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1581200133128" />
-    <state x="-1771" y="294" key="FileChooserDialogImpl" timestamp="1580578711179">
-      <screen x="-2560" y="0" width="2048" height="1112" />
+    <state x="789" y="294" key="FileChooserDialogImpl" timestamp="1581279540334">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="-1771" y="294" key="FileChooserDialogImpl/-2560.0.2048.1112/0.0.2048.1112@-2560.0.2048.1112" timestamp="1580578711179" />
+    <state x="789" y="294" key="FileChooserDialogImpl/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1581279540334" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580427025719" />
     <state width="2005" height="508" key="GridCell.Tab.0.bottom" timestamp="1581200663136">
       <screen x="0" y="0" width="2048" height="1112" />
@@ -146,5 +150,9 @@
     </state>
     <state x="-2068" y="174" key="SettingsEditor/-2560.0.2048.1112/0.0.2048.1112@-2560.0.2048.1112" timestamp="1580578714835" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580427027798" />
+    <state x="465" y="183" key="new project wizard" timestamp="1581279547333">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="465" y="183" key="new project wizard/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1581279547333" />
   </component>
 </project>
