@@ -5,7 +5,6 @@ import javax.swing.*;
 
 public class WeightCalculator extends JFrame {
     private final double OUNCES_IN_GRAMS = 0.035;
-    private final double GRAMS_IN_OUNCES = 28.35;
 
     public WeightCalculator() {
         super("Weight Conversion");
@@ -15,7 +14,7 @@ public class WeightCalculator extends JFrame {
         setVisible(true);
     }
 
-    static public void main(String[] args) {
+    public static void main(String[] args) {
         WeightCalculator calculator = new WeightCalculator();
     }
 
@@ -46,12 +45,10 @@ public class WeightCalculator extends JFrame {
         public void actionPerformed(ActionEvent e) {
             String gramString = gramsInputField.getText();
             gramsInput = Double.parseDouble(gramString);
-            ouncesResult = gramsInput*GRAMS_IN_OUNCES;
-            String ouncesString = Double.toString(ouncesResult);
+            ouncesResult = gramsInput*OUNCES_IN_GRAMS;
+            String ouncesString = String.format("%.3f", ouncesResult);
             ouncesResultField.setText(ouncesString);
         }
-
-
     }
 }
 
