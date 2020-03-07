@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67ed19e4-d41d-42c5-bea9-0400b842bdda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Students.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,14 +39,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.LunchLineNonGeneric">
-    <configuration name="HelloWorldApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorldApplication" />
-      <module name="Coding Exercises" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Students">
     <configuration name="LunchLineGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LunchLineGeneric" />
       <module name="Coding Exercises" />
@@ -56,6 +49,13 @@
     </configuration>
     <configuration name="LunchLineNonGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LunchLineNonGeneric" />
+      <module name="Coding Exercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Students" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Students" />
       <module name="Coding Exercises" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,11 +77,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Students" />
         <item itemvalue="Application.LunchLineNonGeneric" />
         <item itemvalue="Application.LunchLineGeneric" />
         <item itemvalue="Application.TestIntArray" />
         <item itemvalue="Application.TriangularSeries" />
-        <item itemvalue="Application.HelloWorldApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -118,6 +118,8 @@
       <workItem from="1582774385752" duration="1325000" />
       <workItem from="1583005908515" duration="578000" />
       <workItem from="1583006663693" duration="4575000" />
+      <workItem from="1583114226572" duration="772000" />
+      <workItem from="1583606716985" duration="3078000" />
     </task>
     <servers />
   </component>
@@ -139,26 +141,26 @@
     <state x="-1771" y="294" key="FileChooserDialogImpl/-2560.0.2048.1112/0.0.2048.1112@-2560.0.2048.1112" timestamp="1580578711179" />
     <state x="789" y="294" key="FileChooserDialogImpl/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1582421630028" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580427025719" />
-    <state width="2005" height="473" key="GridCell.Tab.0.bottom" timestamp="1583035481420">
+    <state width="2005" height="284" key="GridCell.Tab.0.bottom" timestamp="1583617960797">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="2005" height="428" key="GridCell.Tab.0.bottom/-2560.0.2048.1112/0.0.2048.1112@-2560.0.2048.1112" timestamp="1583020586044" />
-    <state width="2005" height="473" key="GridCell.Tab.0.bottom/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1583035481420" />
-    <state width="2005" height="473" key="GridCell.Tab.0.center" timestamp="1583035481420">
+    <state width="2005" height="284" key="GridCell.Tab.0.bottom/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1583617960797" />
+    <state width="2005" height="284" key="GridCell.Tab.0.center" timestamp="1583617960797">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="2005" height="428" key="GridCell.Tab.0.center/-2560.0.2048.1112/0.0.2048.1112@-2560.0.2048.1112" timestamp="1583020586044" />
-    <state width="2005" height="473" key="GridCell.Tab.0.center/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1583035481420" />
-    <state width="2005" height="473" key="GridCell.Tab.0.left" timestamp="1583035481420">
+    <state width="2005" height="284" key="GridCell.Tab.0.center/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1583617960797" />
+    <state width="2005" height="284" key="GridCell.Tab.0.left" timestamp="1583617960796">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="2005" height="428" key="GridCell.Tab.0.left/-2560.0.2048.1112/0.0.2048.1112@-2560.0.2048.1112" timestamp="1583020586044" />
-    <state width="2005" height="473" key="GridCell.Tab.0.left/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1583035481420" />
-    <state width="2005" height="473" key="GridCell.Tab.0.right" timestamp="1583035481420">
+    <state width="2005" height="284" key="GridCell.Tab.0.left/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1583617960796" />
+    <state width="2005" height="284" key="GridCell.Tab.0.right" timestamp="1583617960797">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="2005" height="428" key="GridCell.Tab.0.right/-2560.0.2048.1112/0.0.2048.1112@-2560.0.2048.1112" timestamp="1583020586044" />
-    <state width="2005" height="473" key="GridCell.Tab.0.right/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1583035481420" />
+    <state width="2005" height="284" key="GridCell.Tab.0.right/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1583617960797" />
     <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1583034051699">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
